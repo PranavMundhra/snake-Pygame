@@ -89,8 +89,6 @@ while run:
     else:
         snake.pop()  # Remove the tail segment if no food is eaten
 
-    # Check collision with self (if head touches any part of the body)
-    # Check collision with self (if head touches any part of the body)
     for segment in snake[1:]:
         if new_head.colliderect(segment):
             game_over = True  # Flag to display game over message
